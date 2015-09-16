@@ -27,42 +27,57 @@
    <script>
    var Cursor;
    
+   var test;
+   
    	function Start() {
    		
-   		/*
+   		
    		var obj = {};
    		obj.type = "crosshair";
    		
    		obj.width 	= 80;
    		obj.height 	= 80;
-   		obj.x 		= 100;
-   		obj.y		= 100;
+
    		obj.color = "rgba(0,80,200,1)";
-   		obj.strokeWidth = 2;
+   		obj.strokeWidth = 1;
    		obj.gap 		= 17;
-   		obj.following = false;
-   		*/
+   		obj.following = true;
+   		obj.callback  = function(){
+   			alert("bin der Callback");
+   			};
+   		
+   		
    		
    		/*
    		var obj = {};
    		obj.type 		= "lens";
    		obj.radius  	= 50;
+   		obj.width		= 100;
+   		obj.height		= 100;
    		obj.innerRadius	= 36;
-   		obj.x 			= 200;
-   		obj.y			= 200;  
+   		obj.x 			= 0;
+   		obj.y			= 0;  
+   		following		= true;
    		*/
    		
    		
+   		
+   		/*
    		var obj = {};
    		obj.type = "search";
    		
-   		obj.width 	= 180;
-   		obj.height 	= 180;
+   		obj.width 	= 40;
+   		obj.height 	= 40;
    		obj.color = "rgba(0,80,200,1)";
-   		obj.strokeWidth = 4;
-   		obj.gap 		= 50;
-   		obj.following = false;
-   	
+   		obj.strokeWidth = 2;
+   		obj.gap 		= 25;
+   		obj.following = true;
+   		obj.callback  = function(){
+   			alert("bin der Callback");
+   			};
+   		*/
+   		
+   		
    		
    		/*
    		var obj = {
@@ -71,6 +86,10 @@
    			width: 20,
    			height: 20,
    			color: "red",
+   			following : true,
+   			callback  : function(){
+   			alert("bin der Callback");
+   				}
    			};
    		*/
    		
